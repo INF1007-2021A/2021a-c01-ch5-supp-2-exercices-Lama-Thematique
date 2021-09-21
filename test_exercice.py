@@ -75,10 +75,10 @@ class TestExercice(unittest.TestCase):
 			"Stop right there criminal scum! shouted the guard confidently."
 		]
 		expected = [
-			"    |       " "\n" \
-			"   ||       " "\n" \
-			"  ||| ||  | " "\n" \
-			"¯¯¯¯¯¯¯¯¯¯¯¯" "\n" \
+			"    |      " "\n" \
+			"   ||      " "\n" \
+			"  ||| ||  |" "\n" \
+			"¯¯¯¯¯¯¯¯¯¯¯" "\n" \
 		]
 		output = [exercice.format_horizontal_histogram(exercice.get_word_length_histogram(v)).strip("\n") for v in values]
 
